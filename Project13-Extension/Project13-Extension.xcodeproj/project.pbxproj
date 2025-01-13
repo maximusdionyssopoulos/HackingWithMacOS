@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D456BD442D352A9500CDE116 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456BD432D352A9500CDE116 /* SettingsView.swift */; };
 		D4C565942D34DF24008E6147 /* Project13_ExtensionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C565932D34DF24008E6147 /* Project13_ExtensionApp.swift */; };
 		D4C565962D34DF24008E6147 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C565952D34DF24008E6147 /* ContentView.swift */; };
 		D4C565982D34DF25008E6147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C565972D34DF25008E6147 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D456BD432D352A9500CDE116 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D4C565902D34DF24008E6147 /* Project13-Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project13-Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C565932D34DF24008E6147 /* Project13_ExtensionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project13_ExtensionApp.swift; sourceTree = "<group>"; };
 		D4C565952D34DF24008E6147 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				D4C565952D34DF24008E6147 /* ContentView.swift */,
 				D4C565A22D34DF57008E6147 /* RenderView.swift */,
+				D456BD432D352A9500CDE116 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C565962D34DF24008E6147 /* ContentView.swift in Sources */,
+				D456BD442D352A9500CDE116 /* SettingsView.swift in Sources */,
 				D4C565942D34DF24008E6147 /* Project13_ExtensionApp.swift in Sources */,
 				D4C565A92D34DF83008E6147 /* Color-Codable.swift in Sources */,
 				D4C565A72D34DF72008E6147 /* Bundle-StringArray.swift in Sources */,

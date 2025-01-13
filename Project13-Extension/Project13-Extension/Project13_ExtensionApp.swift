@@ -9,11 +9,19 @@ import SwiftUI
 
 @main
 struct Project13_ExtensionApp: App {
+    
+    init() {
+        let dict = [
+            "FontSize": 16,
+            "ShadowStrength": 1
+        ]
+        UserDefaults.standard.register(defaults: dict)
+    }
+    
     var body: some Scene {
         DocumentGroup(newDocument: ScreenableDocument()) { file in
             ContentView(document: file.$document)
         }
-        .windowResizability(.contentSize)
         .commands {
             CommandGroup(after: .saveItem) {
                 Button("Export...") {
@@ -22,5 +30,7 @@ struct Project13_ExtensionApp: App {
                 .keyboardShortcut("e")
             }
         }
+        
+        Settings(content: SettingsView.init)
     }
 }

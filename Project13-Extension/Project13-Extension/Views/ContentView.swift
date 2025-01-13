@@ -49,6 +49,13 @@ import UniformTypeIdentifiers
                 .labelStyle(.iconOnly)
             }
             
+            ToolbarItem {
+                Button("Reset document", systemImage: "arrow.circlepath") {
+                    reset()
+                }
+                .labelStyle(.iconOnly)
+            }
+            
             ToolbarItemGroup() {
                 Picker("Select a caption font", selection: $document.font) {
                     ForEach(fonts, id: \.self, content: Text.init)
@@ -166,6 +173,24 @@ import UniformTypeIdentifiers
         let url = URL.temporaryDirectory.appending(path: "ScreenableExport").appendingPathExtension("png")
         try? createSnapshot()?.write(to: url)
         return url
+    }
+    
+    func reset() {
+        // reset caption text
+        document.caption = ""
+        document.captionColor = Color.black
+        document.dropShadowLocation = 0
+        
+        // reset background image
+        document.userImage = nil
+        document.backgroundColorTop = Color.clear
+        document.backgroundColorBottom = Color.clear
+        
+        // reset to user defaults
+        document.fontSize = UserDefaults.standard.integer(forKey: "FontSize") 
+        document.font = UserDefaults.standard.string(forKey: "Font") ?? "Helvetica Neue"
+        document.backgroundImage =  UserDefaults.standard.string(forKey: "BackgroundImage") ?? ""
+        document.dropShadowStrength = UserDefaults.standard.integer(forKey: "ShadowStrength")
     }
 }
 

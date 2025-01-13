@@ -11,9 +11,9 @@ import UniformTypeIdentifiers
 struct ScreenableDocument: FileDocument, Codable {
     static var readableContentTypes = [UTType(exportedAs: "com.maximus-dionyssopoulos.screenable")]
     var caption = ""
-    var font = "Helvetica Neue"
-    var fontSize = 16
-    var backgroundImage = ""
+    var font = UserDefaults.standard.string(forKey: "Font") ?? "Helvetica Neue"
+    var fontSize = UserDefaults.standard.integer(forKey: "FontSize") 
+    var backgroundImage =  UserDefaults.standard.string(forKey: "BackgroundImage") ?? ""
     var userImage: Data?
     
     var captionColor = Color.black
@@ -21,7 +21,7 @@ struct ScreenableDocument: FileDocument, Codable {
     var backgroundColorBottom = Color.clear
     
     var dropShadowLocation = 0
-    var dropShadowStrength = 1
+    var dropShadowStrength = UserDefaults.standard.integer(forKey: "ShadowStrength") 
     
     
     init(configuration: ReadConfiguration) throws {
