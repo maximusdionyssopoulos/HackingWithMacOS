@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  BubbleTrubble
+//  BubbleTrouble
 //
 //  Created by Maximus Dionyssopoulos on 25/6/2024.
 //

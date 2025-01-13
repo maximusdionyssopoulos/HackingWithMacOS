@@ -16,14 +16,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D47546352C2A733800B0C707 /* BubbleTroubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTroubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47546352C2A733800B0C707 /* BubbleTrouble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTrouble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47546382C2A733800B0C707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D475463A2C2A733900B0C707 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D475463E2C2A733900B0C707 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D47546402C2A733900B0C707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D47546422C2A733A00B0C707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D47546452C2A733A00B0C707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D47546472C2A733A00B0C707 /* BubbleTrubble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubbleTrubble.entitlements; sourceTree = "<group>"; };
+		D47546472C2A733A00B0C707 /* BubbleTrouble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubbleTrouble.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		D475462C2C2A733800B0C707 = {
 			isa = PBXGroup;
 			children = (
-				D47546372C2A733800B0C707 /* BubbleTroubble */,
+				D47546372C2A733800B0C707 /* BubbleTrouble */,
 				D47546362C2A733800B0C707 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		D47546362C2A733800B0C707 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D47546352C2A733800B0C707 /* BubbleTroubble.app */,
+				D47546352C2A733800B0C707 /* BubbleTrouble.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D47546372C2A733800B0C707 /* BubbleTroubble */ = {
+		D47546372C2A733800B0C707 /* BubbleTrouble */ = {
 			isa = PBXGroup;
 			children = (
 				D47546382C2A733800B0C707 /* AppDelegate.swift */,
@@ -62,17 +62,17 @@
 				D47546402C2A733900B0C707 /* ViewController.swift */,
 				D47546422C2A733A00B0C707 /* Assets.xcassets */,
 				D47546442C2A733A00B0C707 /* Main.storyboard */,
-				D47546472C2A733A00B0C707 /* BubbleTrubble.entitlements */,
+				D47546472C2A733A00B0C707 /* BubbleTrouble.entitlements */,
 			);
-			path = BubbleTroubble;
+			path = BubbleTrouble;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D47546342C2A733800B0C707 /* BubbleTroubble */ = {
+		D47546342C2A733800B0C707 /* BubbleTrouble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D47546602C2A733A00B0C707 /* Build configuration list for PBXNativeTarget "BubbleTroubble" */;
+			buildConfigurationList = D47546602C2A733A00B0C707 /* Build configuration list for PBXNativeTarget "BubbleTrouble" */;
 			buildPhases = (
 				D47546312C2A733800B0C707 /* Sources */,
 				D47546322C2A733800B0C707 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = BubbleTroubble;
+			name = BubbleTrouble;
 			productName = BubbleTrubble;
-			productReference = D47546352C2A733800B0C707 /* BubbleTroubble.app */;
+			productReference = D47546352C2A733800B0C707 /* BubbleTrouble.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D47546302C2A733800B0C707 /* Build configuration list for PBXProject "BubbleTroubble" */;
+			buildConfigurationList = D47546302C2A733800B0C707 /* Build configuration list for PBXProject "BubbleTrouble" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D47546342C2A733800B0C707 /* BubbleTroubble */,
+				D47546342C2A733800B0C707 /* BubbleTrouble */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D47546302C2A733800B0C707 /* Build configuration list for PBXProject "BubbleTroubble" */ = {
+		D47546302C2A733800B0C707 /* Build configuration list for PBXProject "BubbleTrouble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D475465E2C2A733A00B0C707 /* Debug */,
@@ -338,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D47546602C2A733A00B0C707 /* Build configuration list for PBXNativeTarget "BubbleTroubble" */ = {
+		D47546602C2A733A00B0C707 /* Build configuration list for PBXNativeTarget "BubbleTrouble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D47546612C2A733A00B0C707 /* Debug */,

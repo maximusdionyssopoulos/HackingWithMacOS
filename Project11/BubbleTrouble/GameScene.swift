@@ -1,6 +1,6 @@
 //
 //  GameScene.swift
-//  BubbleTroubble
+//  BubbleTrouble
 //
 //  Created by Maximus Dionyssopoulos on 25/6/2024.
 //
