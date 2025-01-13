@@ -94,8 +94,16 @@ import SwiftUI
             export()
         }
         .toolbar {
-            Button("Export", action: export)
-            ShareLink(item: snapshotToURL())
+            ToolbarItemGroup {
+                Picker("Select a caption font", selection: $document.font) {
+                    ForEach(fonts, id: \.self, content: Text.init)
+                }
+            }
+            ToolbarItemGroup {
+                Button("Export", action: export)
+                
+                ShareLink(item: snapshotToURL())
+            }
         }
     }
     
