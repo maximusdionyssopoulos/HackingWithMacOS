@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+@objc protocol AppCommands {
+    func export() 
+}

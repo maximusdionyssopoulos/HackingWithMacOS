@@ -11,6 +11,13 @@
 		D40AB5A22D34AA6200FFB467 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AB5A12D34AA6200FFB467 /* ContentView.swift */; };
 		D40AB5A42D34AA6300FFB467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40AB5A32D34AA6300FFB467 /* Assets.xcassets */; };
 		D40AB5A72D34AA6300FFB467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40AB5A62D34AA6300FFB467 /* Preview Assets.xcassets */; };
+		D40AB5AF2D34AB2900FFB467 /* Fonts.txt in Resources */ = {isa = PBXBuildFile; fileRef = D40AB5AE2D34AB2900FFB467 /* Fonts.txt */; };
+		D40AB5B12D34AB4C00FFB467 /* Backgrounds.txt in Resources */ = {isa = PBXBuildFile; fileRef = D40AB5B02D34AB4C00FFB467 /* Backgrounds.txt */; };
+		D40AB5B32D34AEB700FFB467 /* Screenable-Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AB5B22D34AEB700FFB467 /* Screenable-Document.swift */; };
+		D40AB5B62D34B90800FFB467 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AB5B52D34B90800FFB467 /* RenderView.swift */; };
+		D40AB5B82D34BE5800FFB467 /* Bundle-StringArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AB5B72D34BE5800FFB467 /* Bundle-StringArray.swift */; };
+		D40AB5BA2D34C58700FFB467 /* Color-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AB5B92D34C58700FFB467 /* Color-Codable.swift */; };
+		D40AB5BC2D34CC3600FFB467 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40AB5BB2D34CC3600FFB467 /* AppCommands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,14 @@
 		D40AB5A32D34AA6300FFB467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40AB5A62D34AA6300FFB467 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D40AB5A82D34AA6300FFB467 /* Screenable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenable.entitlements; sourceTree = "<group>"; };
+		D40AB5AE2D34AB2900FFB467 /* Fonts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fonts.txt; sourceTree = "<group>"; };
+		D40AB5B02D34AB4C00FFB467 /* Backgrounds.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Backgrounds.txt; sourceTree = "<group>"; };
+		D40AB5B22D34AEB700FFB467 /* Screenable-Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screenable-Document.swift"; sourceTree = "<group>"; };
+		D40AB5B42D34B24300FFB467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D40AB5B52D34B90800FFB467 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
+		D40AB5B72D34BE5800FFB467 /* Bundle-StringArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-StringArray.swift"; sourceTree = "<group>"; };
+		D40AB5B92D34C58700FFB467 /* Color-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Codable.swift"; sourceTree = "<group>"; };
+		D40AB5BB2D34CC3600FFB467 /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +67,18 @@
 		D40AB59E2D34AA6200FFB467 /* Screenable */ = {
 			isa = PBXGroup;
 			children = (
+				D40AB5B42D34B24300FFB467 /* Info.plist */,
 				D40AB59F2D34AA6200FFB467 /* ScreenableApp.swift */,
+				D40AB5B52D34B90800FFB467 /* RenderView.swift */,
 				D40AB5A12D34AA6200FFB467 /* ContentView.swift */,
+				D40AB5BB2D34CC3600FFB467 /* AppCommands.swift */,
+				D40AB5B72D34BE5800FFB467 /* Bundle-StringArray.swift */,
+				D40AB5B22D34AEB700FFB467 /* Screenable-Document.swift */,
+				D40AB5B92D34C58700FFB467 /* Color-Codable.swift */,
 				D40AB5A32D34AA6300FFB467 /* Assets.xcassets */,
 				D40AB5A82D34AA6300FFB467 /* Screenable.entitlements */,
+				D40AB5AE2D34AB2900FFB467 /* Fonts.txt */,
+				D40AB5B02D34AB4C00FFB467 /* Backgrounds.txt */,
 				D40AB5A52D34AA6300FFB467 /* Preview Content */,
 			);
 			path = Screenable;
@@ -127,7 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40AB5B12D34AB4C00FFB467 /* Backgrounds.txt in Resources */,
 				D40AB5A72D34AA6300FFB467 /* Preview Assets.xcassets in Resources */,
+				D40AB5AF2D34AB2900FFB467 /* Fonts.txt in Resources */,
 				D40AB5A42D34AA6300FFB467 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40AB5B32D34AEB700FFB467 /* Screenable-Document.swift in Sources */,
+				D40AB5BC2D34CC3600FFB467 /* AppCommands.swift in Sources */,
+				D40AB5B82D34BE5800FFB467 /* Bundle-StringArray.swift in Sources */,
+				D40AB5BA2D34C58700FFB467 /* Color-Codable.swift in Sources */,
 				D40AB5A22D34AA6200FFB467 /* ContentView.swift in Sources */,
+				D40AB5B62D34B90800FFB467 /* RenderView.swift in Sources */,
 				D40AB5A02D34AA6200FFB467 /* ScreenableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,12 +301,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Screenable/Screenable.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Screenable/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Screenable/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,12 +329,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Screenable/Screenable.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Screenable/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Screenable/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
