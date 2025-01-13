@@ -62,7 +62,7 @@ struct ContentView: View {
             let numbersOfItems = [0, 5, 15, 25, 35, 49, 46, 81, 100]
             generateLayout(items: numbersOfItems[currentLevel])
         }
-    }
+    } 
     
     func processAnswer(at row: Int, _ column: Int) {
         if image(row, column) == images[0] {
